@@ -7,7 +7,7 @@ document.getElementById('lookupForm').addEventListener('submit', function(event)
         .then(data => {
             const rows = data.split('\n').map(row => row.split(','));
             const headers = rows[0];
-            const nationalIdIndex = headers.indexOf('National ID');
+            const nationalIdIndex = headers.indexOf('National_ID');
             const usernameIndex = headers.indexOf('username');
             const usercodeIndex = headers.indexOf('UserCode');
 
