@@ -11,7 +11,7 @@ document.getElementById('lookupForm').addEventListener('submit', function(event)
             
             const headers = rows[0];
             console.log("Headers:", headers); // Log headers
-            const nationalIdIndex = headers.indexOf('National_ID');
+            const nationalIdIndex = headers.indexOf('National ID');
             const usernameIndex = headers.indexOf('username');
             const usercodeIndex = headers.indexOf('UserCode');
 
